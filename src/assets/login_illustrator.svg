@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="200px" viewBox="0 0 840 612" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>组合示例/功能区块示例/电脑组合06</title>
+    <defs>
+        <linearGradient x1="50%" y1="84.0591523%" x2="50%" y2="12.7399407%" id="linearGradient-1">
+            <stop stop-color="#F0F3FD" offset="0%"></stop>
+            <stop stop-color="#DFE4EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#DAE3F4" offset="0%"></stop>
+            <stop stop-color="#F6F9FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-37.1%" y="-56.1%" width="174.2%" height="212.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="16" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.337254902   0 0 0 0 0.517647059   0 0 0 0 0.964705882  0 0 0 0.516270351 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="-38.469547%" y1="-9.00540214%" x2="56.8258351%" y2="40.0685569%" id="linearGradient-4">
+            <stop stop-color="#7FA0FE" offset="0%"></stop>
+            <stop stop-color="#5E7BFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="40.0062753%" y1="8.06889916%" x2="45.8303664%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#7FA0FE" offset="0%"></stop>
+            <stop stop-color="#5E7BFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="121.452541%" y1="0%" x2="33.7247728%" y2="56.6145244%" id="linearGradient-6">
+            <stop stop-color="#7FA0FE" offset="0%"></stop>
+            <stop stop-color="#5E7BFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M128.519017,98.556958 C129.790735,99.0298601 131.198101,98.9491486 132.409358,98.3338496 C133.620614,97.7185507 134.528589,96.6231059 134.919244,95.3057449 C137.496971,87.2591867 143.098612,80.5726989 150.504981,76.701581 C157.890006,73.0085852 166.416083,72.4455407 174.209523,75.1361821 C179.949266,77.3047651 185.00635,81.007335 188.847079,85.8531438 L185.943272,85.1908597 C184.637636,84.9071992 183.274569,85.1682937 182.160236,85.9154975 C181.045903,86.6627013 180.273722,87.8333736 180.017137,89.1645646 C179.495812,92.024497 181.264945,94.7998674 184.046909,95.4863679 L198.269635,98.8579963 C200.827283,99.4849016 203.423464,97.9814489 204.19577,95.4261602 L207.751452,82.8427613 C208.617906,80.0534247 207.149085,77.0688747 204.432816,76.0995045 C203.160418,75.6446431 201.760802,75.7338548 200.554339,76.3467191 C199.347875,76.9595834 198.437858,78.0436281 198.032589,79.3507176 L197.795544,80.9161165 C192.615804,73.7719734 185.486458,68.3291155 177.291114,65.2621274 C166.953412,61.6496542 155.623132,62.3867181 145.823333,67.3091875 C135.988072,72.4195496 128.565323,81.3043869 125.200381,91.9943241 C124.443537,94.7273526 125.891394,97.5905034 128.519017,98.556958 Z M204.518805,114.39345 C203.24584,113.921059 201.838241,114 200.624093,114.612164 C199.409945,115.224222 198.495326,116.315819 198.093418,117.632523 C195.523619,125.645801 189.953186,132.305366 182.589962,136.167217 C175.257088,139.885756 166.768025,140.468822 159.01056,137.786754 C153.292716,135.642318 148.258429,131.950713 144.45028,127.10981 L147.338757,127.769621 C148.638984,128.069659 150.00323,127.816789 151.115966,127.069497 C152.228703,126.322205 152.993549,125.145218 153.233607,123.810754 C153.752179,120.961501 151.992386,118.196494 149.225109,117.512557 L135.077468,114.153519 C132.5289,113.496514 129.925669,115.006392 129.182618,117.57254 L125.233068,130.048969 C124.403687,132.825185 125.85388,135.776463 128.534184,136.767046 C129.799188,137.238182 131.199125,137.157772 132.403987,136.54477 C133.608849,135.931769 134.51203,134.840415 134.900623,133.527973 L135.313262,132.148368 C140.475539,139.255866 147.564025,144.675935 155.709444,147.743904 C166.012061,151.346146 177.301907,150.611955 187.070048,145.704487 C196.891729,140.613544 204.331445,131.770796 207.760972,121.111527 C208.596654,118.352067 207.175698,115.407713 204.518805,114.39345 L204.518805,114.39345 Z" id="path-7"></path>
+        <filter x="-28.9%" y="-20.7%" width="157.8%" height="155.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.273212341   0 0 0 0 0.386798101   0 0 0 0 0.903809147  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="插画" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组合示例/功能区块示例" transform="translate(-1489.000000, -3698.000000)">
+            <g id="组合示例/功能区块示例/电脑组合06" transform="translate(1400.000000, 3536.000000)">
+                <rect id="背景-" x="0" y="0" width="1000" height="1000"></rect>
+                <g id="主图" transform="translate(89.000000, 189.000000)">
+                    <g id="编组备份-3" transform="translate(0.000000, 268.000000)">
+                        <path d="M249.894586,313.506105 L241.395341,309.902535 L235.564892,267 L157.921987,267 L151.602219,309.727257 L143.9983,313.555546 C143.249282,313.932673 142.856068,314.778882 143.04849,315.599568 C143.240912,316.420254 143.968468,317 144.805904,317 L249.1941,317 C250.053613,317 250.794028,316.390028 250.964115,315.541665 C251.134202,314.693302 250.686807,313.841807 249.894586,313.506105 Z" id="路径" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M384.545866,273 L7.45413973,273 C3.33464608,272.990693 0,269.629076 0,265.485508 L0,212 L392,212 L392,265.485503 C392,269.629055 388.665344,272.990652 384.545866,273 L384.545866,273 Z" id="路径" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                        <path d="M393,238 L0,238 L0,9.06193738 C0.00575114265,4.05944053 4.03737281,0.00560710513 9.01228522,0 L383.987623,0 C388.962551,0.00560381916 392.994201,4.05942421 393,9.06193738 L393,238 Z" id="路径" fill="#253369"></path>
+                        <path d="M370.051251,220 L23.9487491,220 C20.1128771,219.995791 17.004307,216.882214 17,213.040058 L17,22.9603696 C17.0042749,19.118131 20.1127949,16.0044125 23.9487491,16 L370.051251,16 C373.887204,16.0044157 376.995722,19.1181323 377,22.9603696 L377,213.040058 C376.99569,216.882212 373.887122,219.995788 370.051251,220 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="编组-2备份-2" transform="translate(26.000000, 323.000000)">
+                        <rect id="矩形备份-4" fill="#EFEFF1" x="0" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-3" fill="#EFEFF1" x="0" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-2" fill="#EFEFF1" x="0" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-7" fill="#EFEFF1" x="0" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-6" fill="#EFEFF1" x="0" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-5" fill="#EFEFF1" x="0" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-10" fill="#EFEFF1" x="0" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-9" fill="#EFEFF1" x="0" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-8" fill="#EFEFF1" x="0" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-21" fill="#EFEFF1" x="14" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-20" fill="#EFEFF1" x="14" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-19" fill="#EFEFF1" x="14" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-18" fill="#EFEFF1" x="14" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-17" fill="#EFEFF1" x="14" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-16" fill="#5483F6" x="14" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-15" fill="#EFEFF1" x="14" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-14" fill="#EFEFF1" x="14" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-13" fill="#EFEFF1" x="14" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-12" fill="#EFEFF1" x="14" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-11" fill="#EFEFF1" x="14" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-32" fill="#EFEFF1" x="26" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-31" fill="#FF9393" x="26" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-30" fill="#EFEFF1" x="26" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-29" fill="#EFEFF1" x="26" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-28" fill="#EFEFF1" x="26" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-27" fill="#EFEFF1" x="26" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-26" fill="#EFEFF1" x="26" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-25" fill="#EFEFF1" x="26" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-24" fill="#EFEFF1" x="26" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-23" fill="#EFEFF1" x="26" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-46" fill="#EFEFF1" x="40" y="0" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-45" fill="#EFEFF1" x="40" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-44" fill="#EFEFF1" x="40" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-43" fill="#EFEFF1" x="40" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-42" fill="#EFEFF1" x="40" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-41" fill="#EFEFF1" x="40" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-40" fill="#EFEFF1" x="40" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-39" fill="#EFEFF1" x="40" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-38" fill="#EFEFF1" x="40" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-37" fill="#EFEFF1" x="40" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-36" fill="#EFEFF1" x="40" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-35" fill="#EFEFF1" x="40" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-55" fill="#EFEFF1" x="53" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-54" fill="#EFEFF1" x="53" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-53" fill="#EFEFF1" x="53" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-52" fill="#EFEFF1" x="53" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-51" fill="#EFEFF1" x="53" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-50" fill="#EFEFF1" x="53" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-49" fill="#EFEFF1" x="53" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-48" fill="#EFEFF1" x="53" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-47" fill="#EFEFF1" x="53" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-69" fill="#EFEFF1" x="68" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-68" fill="#EFEFF1" x="68" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-67" fill="#EFEFF1" x="68" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-66" fill="#EFEFF1" x="68" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-65" fill="#EFEFF1" x="68" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-64" fill="#EFEFF1" x="68" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-63" fill="#EFEFF1" x="68" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-62" fill="#FF9393" x="68" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-61" fill="#EFEFF1" x="68" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-60" fill="#EFEFF1" x="68" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-59" fill="#EFEFF1" x="68" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-80" fill="#EFEFF1" x="81" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-79" fill="#5483F6" x="81" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-78" fill="#EFEFF1" x="81" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-77" fill="#EFEFF1" x="81" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-76" fill="#EFEFF1" x="81" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-75" fill="#EFEFF1" x="81" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-74" fill="#EFEFF1" x="81" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-73" fill="#EFEFF1" x="81" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-72" fill="#EFEFF1" x="81" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-71" fill="#EFEFF1" x="81" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-93" fill="#EFEFF1" x="95" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-92" fill="#EFEFF1" x="95" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-91" fill="#EFEFF1" x="95" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-90" fill="#EFEFF1" x="95" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-89" fill="#FF9393" x="95" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-88" fill="#EFEFF1" x="95" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-87" fill="#EFEFF1" x="95" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-86" fill="#EFEFF1" x="95" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-85" fill="#EFEFF1" x="95" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-84" fill="#EFEFF1" x="95" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-83" fill="#EFEFF1" x="95" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-106" fill="#EFEFF1" x="107" y="0" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-105" fill="#EFEFF1" x="107" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-104" fill="#EFEFF1" x="107" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-103" fill="#EFEFF1" x="107" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-102" fill="#EFEFF1" x="107" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-101" fill="#EFEFF1" x="107" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-100" fill="#EFEFF1" x="107" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-99" fill="#EFEFF1" x="107" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-98" fill="#EFEFF1" x="107" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-97" fill="#EFEFF1" x="107" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-96" fill="#EFEFF1" x="107" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-95" fill="#EFEFF1" x="107" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-114" fill="#EFEFF1" x="121" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-113" fill="#EFEFF1" x="121" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-112" fill="#5483F6" x="121" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-111" fill="#EFEFF1" x="121" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-110" fill="#EFEFF1" x="121" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-109" fill="#EFEFF1" x="121" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-108" fill="#EFEFF1" x="121" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-107" fill="#EFEFF1" x="121" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-129" fill="#EFEFF1" x="134" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-128" fill="#EFEFF1" x="134" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-127" fill="#EFEFF1" x="134" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-126" fill="#EFEFF1" x="134" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-125" fill="#EFEFF1" x="134" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-124" fill="#EFEFF1" x="134" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-123" fill="#EFEFF1" x="134" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-122" fill="#EFEFF1" x="134" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-121" fill="#EFEFF1" x="134" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-120" fill="#EFEFF1" x="134" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-119" fill="#EFEFF1" x="134" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-140" fill="#EFEFF1" x="148" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-139" fill="#EFEFF1" x="148" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-138" fill="#EFEFF1" x="148" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-137" fill="#EFEFF1" x="148" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-136" fill="#EFEFF1" x="148" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-135" fill="#EFEFF1" x="148" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-134" fill="#EFEFF1" x="148" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-133" fill="#EFEFF1" x="148" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-132" fill="#EFEFF1" x="148" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-131" fill="#EFEFF1" x="148" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-154" fill="#EFEFF1" x="161" y="0" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-153" fill="#EFEFF1" x="161" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-152" fill="#EFEFF1" x="161" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-151" fill="#EFEFF1" x="161" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-150" fill="#EFEFF1" x="161" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-149" fill="#FF9393" x="161" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-148" fill="#EFEFF1" x="161" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-147" fill="#EFEFF1" x="161" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-146" fill="#EFEFF1" x="161" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-145" fill="#EFEFF1" x="161" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-144" fill="#EFEFF1" x="161" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-143" fill="#EFEFF1" x="161" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-164" fill="#EFEFF1" x="173" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-163" fill="#EFEFF1" x="173" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-162" fill="#EFEFF1" x="173" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-161" fill="#EFEFF1" x="173" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-160" fill="#EFEFF1" x="173" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-159" fill="#EFEFF1" x="173" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-158" fill="#EFEFF1" x="173" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-157" fill="#5483F6" x="173" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-156" fill="#EFEFF1" x="173" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-155" fill="#EFEFF1" x="173" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-175" fill="#EFEFF1" x="186" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-174" fill="#EFEFF1" x="186" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-173" fill="#EFEFF1" x="186" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-172" fill="#EFEFF1" x="186" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-171" fill="#EFEFF1" x="186" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-170" fill="#EFEFF1" x="186" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-169" fill="#EFEFF1" x="186" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-168" fill="#EFEFF1" x="186" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-167" fill="#EFEFF1" x="186" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-189" fill="#EFEFF1" x="200" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-188" fill="#EFEFF1" x="200" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-187" fill="#5483F6" x="200" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-186" fill="#EFEFF1" x="200" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-185" fill="#EFEFF1" x="200" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-184" fill="#EFEFF1" x="200" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-183" fill="#EFEFF1" x="200" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-182" fill="#EFEFF1" x="200" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-181" fill="#EFEFF1" x="200" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-180" fill="#EFEFF1" x="200" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-179" fill="#EFEFF1" x="200" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-200" fill="#EFEFF1" x="213" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-199" fill="#EFEFF1" x="213" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-198" fill="#EFEFF1" x="213" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-197" fill="#EFEFF1" x="213" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-196" fill="#EFEFF1" x="213" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-195" fill="#EFEFF1" x="213" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-194" fill="#EFEFF1" x="213" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-193" fill="#EFEFF1" x="213" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-192" fill="#EFEFF1" x="213" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-191" fill="#EFEFF1" x="213" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-213" fill="#EFEFF1" x="227" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-212" fill="#EFEFF1" x="227" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-211" fill="#EFEFF1" x="227" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-210" fill="#EFEFF1" x="227" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-209" fill="#EFEFF1" x="227" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-208" fill="#EFEFF1" x="227" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-207" fill="#EFEFF1" x="227" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-206" fill="#EFEFF1" x="227" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-205" fill="#EFEFF1" x="227" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-204" fill="#EFEFF1" x="227" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-203" fill="#EFEFF1" x="227" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-226" fill="#EFEFF1" x="239" y="0" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-225" fill="#EFEFF1" x="239" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-224" fill="#EFEFF1" x="239" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-223" fill="#EFEFF1" x="239" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-222" fill="#EFEFF1" x="239" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-221" fill="#EFEFF1" x="239" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-220" fill="#EFEFF1" x="239" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-219" fill="#5483F6" x="239" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-218" fill="#EFEFF1" x="239" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-217" fill="#EFEFF1" x="239" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-216" fill="#EFEFF1" x="239" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-215" fill="#EFEFF1" x="239" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-237" fill="#EFEFF1" x="253" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-236" fill="#EFEFF1" x="253" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-235" fill="#EFEFF1" x="253" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-234" fill="#EFEFF1" x="253" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-233" fill="#EFEFF1" x="253" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-232" fill="#EFEFF1" x="253" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-231" fill="#EFEFF1" x="253" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-230" fill="#EFEFF1" x="253" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-229" fill="#EFEFF1" x="253" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-228" fill="#EFEFF1" x="253" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-227" fill="#EFEFF1" x="253" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-248" fill="#5483F6" x="266" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-247" fill="#EFEFF1" x="266" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-246" fill="#EFEFF1" x="266" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-245" fill="#EFEFF1" x="266" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-244" fill="#EFEFF1" x="266" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-243" fill="#EFEFF1" x="266" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-242" fill="#EFEFF1" x="266" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-241" fill="#EFEFF1" x="266" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-240" fill="#EFEFF1" x="266" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-239" fill="#EFEFF1" x="266" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-262" fill="#EFEFF1" x="281" y="0" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-261" fill="#EFEFF1" x="281" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-260" fill="#EFEFF1" x="281" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-259" fill="#FF9393" x="281" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-258" fill="#EFEFF1" x="281" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-257" fill="#EFEFF1" x="281" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-256" fill="#EFEFF1" x="281" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-255" fill="#EFEFF1" x="281" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-254" fill="#EFEFF1" x="281" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-253" fill="#EFEFF1" x="281" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-252" fill="#EFEFF1" x="281" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-251" fill="#EFEFF1" x="281" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-273" fill="#EFEFF1" x="294" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-272" fill="#EFEFF1" x="294" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-271" fill="#EFEFF1" x="294" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-270" fill="#EFEFF1" x="294" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-269" fill="#EFEFF1" x="294" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-268" fill="#EFEFF1" x="294" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-267" fill="#FF9393" x="294" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-266" fill="#EFEFF1" x="294" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-265" fill="#EFEFF1" x="294" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-264" fill="#EFEFF1" x="294" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-263" fill="#EFEFF1" x="294" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-284" fill="#EFEFF1" x="308" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-283" fill="#5483F6" x="308" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-282" fill="#EFEFF1" x="308" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-281" fill="#EFEFF1" x="308" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-280" fill="#EFEFF1" x="308" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-279" fill="#EFEFF1" x="308" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-278" fill="#EFEFF1" x="308" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-277" fill="#EFEFF1" x="308" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-276" fill="#EFEFF1" x="308" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-275" fill="#EFEFF1" x="308" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-297" fill="#EFEFF1" x="320" y="14" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-296" fill="#EFEFF1" x="320" y="27" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-295" fill="#EFEFF1" x="320" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-294" fill="#EFEFF1" x="320" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-293" fill="#EFEFF1" x="320" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-292" fill="#EFEFF1" x="320" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-291" fill="#EFEFF1" x="320" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-290" fill="#EFEFF1" x="320" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-289" fill="#EFEFF1" x="320" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-288" fill="#EFEFF1" x="320" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-287" fill="#EFEFF1" x="320" y="148" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-307" fill="#EFEFF1" x="334" y="40" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-306" fill="#EFEFF1" x="334" y="53" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-305" fill="#EFEFF1" x="334" y="67" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-304" fill="#5483F6" x="334" y="81" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-303" fill="#EFEFF1" x="334" y="95" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-302" fill="#EFEFF1" x="334" y="108" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-301" fill="#EFEFF1" x="334" y="121" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-300" fill="#EFEFF1" x="334" y="134" width="10" height="10" rx="1"></rect>
+                        <rect id="矩形备份-299" fill="#EFEFF1" x="334" y="148" width="10" height="10" rx="1"></rect>
+                    </g>
+                    <g id="编组-2" transform="translate(509.000000, 304.000000)">
+                        <rect id="矩形" fill="#D3D8E3" x="70" y="49" width="194" height="211"></rect>
+                        <g id="编组备份-7" opacity="0.697781193" transform="translate(116.000000, 73.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份-6" opacity="0.697781193" transform="translate(116.000000, 145.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份-5" opacity="0.697781193" transform="translate(116.000000, 218.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份-10" opacity="0.697781193" transform="translate(0.000000, 73.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份-9" opacity="0.697781193" transform="translate(0.000000, 145.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份-8" opacity="0.697781193" transform="translate(0.000000, 218.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组" transform="translate(59.000000, 0.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份" transform="translate(59.000000, 73.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份-2" transform="translate(59.000000, 145.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                        <g id="编组备份-4" transform="translate(59.000000, 218.000000)">
+                            <rect id="矩形" fill="#EBF0FB" x="0" y="0" width="215" height="62" rx="10"></rect>
+                            <path d="M180.724638,0 L205,0 C210.522847,-2.79088747e-15 215,4.4771525 215,10 L215,52 C215,57.5228475 210.522847,62 205,62 L180.724638,62 L180.724638,62 L180.724638,0 Z" id="矩形备份" fill="#DADFEB"></path>
+                            <ellipse id="椭圆形" fill="#CBD0DC" cx="28.5628019" cy="31.5166667" rx="9.86714976" ry="9.81666667"></ellipse>
+                        </g>
+                    </g>
+                    <g id="编组-16" transform="translate(184.000000, 143.000000)" stroke="#5E7BFF">
+                        <path d="M12,194 L12,194 L12,28.0157793 C12,12.5430916 21.9282011,0 34.1752577,0 L467.824742,0 C480.071799,0 490,12.5430916 490,28.0157793 L490,192.437868 L490,192.437868" id="路径" stroke-width="4" stroke-linecap="round" stroke-dasharray="15"></path>
+                        <circle id="椭圆形" stroke-width="6" fill="#FFFFFF" cx="12.5" cy="191.5" r="9.5"></circle>
+                        <circle id="椭圆形备份-6" stroke-width="6" fill="#FFFFFF" cx="489.5" cy="191.5" r="9.5"></circle>
+                    </g>
+                    <g id="编组-3" transform="translate(271.000000, 0.000000)">
+                        <g id="编组备份-3" filter="url(#filter-3)">
+                            <path d="M67.7595628,205 L67.7589284,204.900201 C30.0036174,202.918522 0,171.673299 0,133.419421 C0,93.8865596 32.0434453,61.838843 71.5710383,61.838843 C72.8508666,61.838843 74.1228491,61.8724399 75.386152,61.9388001 C90.4686097,25.5755424 126.312167,0 168.128415,0 C217.550844,0 258.630159,35.7258748 266.956585,82.7645948 C291.954627,91.0042682 310,114.551517 310,142.31405 C310,173.177346 287.698591,198.831175 258.333426,204.035852 L258.333333,205 L247.437,204.999 L247.322404,205 C247.284016,205 247.245637,204.999965 247.207265,204.999896 L67.7595628,205 Z" id="形状结合" fill="#5E7BFF"></path>
+                            <circle id="椭圆形备份-5" fill="url(#linearGradient-4)" cx="71.5" cy="133.5" r="71.5"></circle>
+                            <ellipse id="椭圆形备份-4" fill="url(#linearGradient-5)" cx="167.5" cy="101" rx="100.5" ry="101"></ellipse>
+                            <ellipse id="椭圆形备份-3" fill="url(#linearGradient-6)" cx="247.5" cy="142" rx="62.5" ry="63"></ellipse>
+                        </g>
+                        <g id="形状" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
