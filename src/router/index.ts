@@ -12,7 +12,12 @@ const routes = [
         children: [
 
         ]
-    }
+    },
+    {
+        path: '/setting',
+        name: 'Setting',
+        component: () => import("/@/components/Setting.vue"),
+    },
 ]
 
 export default createRouter({

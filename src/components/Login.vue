@@ -3,7 +3,13 @@
     <div class="card">
       <div class="card-column-left">
         <div class="login-form">
-          <img src="/@/assets/hexagon.jpg" style="width: 50%" />
+          <div>
+            <img
+              src="/@/assets/hexagon.jpg"
+              style="width: 50%; margin-bottom: 20px"
+            />
+          </div>
+
           <a-form
             name="custom-validation"
             ref="formRef"
@@ -62,7 +68,10 @@ import {
   RuleObject,
   ValidateErrorEntity,
 } from "ant-design-vue/es/form/interface";
-import { defineComponent, reactive, ref, UnwrapRef } from "vue";
+import { reactive, ref, UnwrapRef } from "vue";
+import { useRouter } from "vue-router";
+import { userInfoStore } from "/@/services/Storage/UserStore";
+
 interface FormState {
   user: string;
   pass: string;
@@ -77,6 +86,8 @@ export default {
       user: "",
       code: undefined,
     });
+    const router = useRouter();
+
     let checkCode = async (rule: RuleObject, value: string) => {
       if (!value) {
         return Promise.reject("请输入安全码");
@@ -109,13 +120,19 @@ export default {
     };
 
     const rules = {
-      user: [{ required: true, validator: validateUser, trigger: "blur" }],
-      pass: [{ required: true, validator: validatePass, trigger: "blur" }],
+      user: [{ required: true, validator: validateUser, trigger: "change" }],
+      pass: [{ required: true, validator: validatePass, trigger: "change" }],
       code: [{ validator: checkCode, trigger: "change" }],
     };
 
     const handleFinish = (values: FormState) => {
       console.log(values, formState);
+      userInfoStore.setData({
+        name: formState.user,
+        token: formState.pass,
+        code: formState.code,
+      });
+      router.push({ path: "home" });
     };
     const handleFinishFailed = (errors: ValidateErrorEntity<FormState>) => {
       console.log(errors);

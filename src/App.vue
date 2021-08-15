@@ -14,5 +14,7 @@ export default {
 .router-view-container {
   color: #2c3e50;
   height: 100%;
+  width: 90%;
+  margin: auto;
 }
 </style>

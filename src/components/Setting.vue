@@ -1,7 +1,7 @@
 <template>
   <basic-page>
-    <div style="height: 300px">
-      <button @click="onBtnClicked">Test</button>
+    <div>
+      <button @click="onBtnClicked">SETTING</button>
     </div>
   </basic-page>
 </template>
