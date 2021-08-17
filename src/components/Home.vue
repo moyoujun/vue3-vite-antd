@@ -1,8 +1,8 @@
 <template>
   <basic-page>
     <div class="chart-board">
-      <div class="chart-demo" id="chart-demo"></div>
-      <div class="chart-demo" id="chart-pie-demo"></div>
+      <div class="chart-demo" ref="chart1Ref"></div>
+      <div class="chart-demo" ref="chart2Ref"></div>
     </div>
   </basic-page>
 </template>
@@ -11,17 +11,19 @@
 import BasicPage from "./BasicPage.vue";
 import { userInfoStore } from "/@/services/Storage/UserStore";
 import * as echarts from "echarts";
-import { onMounted, onUnmounted } from "vue";
+import { onMounted, onUnmounted, ref } from "vue";
 
 export default {
   name: "echartsBox",
   setup() {
     /// 声明定义一下echart
     let echart = echarts;
+    const chart1Ref = ref<HTMLElement>();
+    const chart2Ref = ref<HTMLElement>();
 
     onMounted(() => {
-      initChart();
-      initChartPie();
+      initChart(chart1Ref.value);
+      initChartPie(chart2Ref.value);
     });
 
     onUnmounted(() => {
@@ -29,8 +31,8 @@ export default {
     });
 
     // 基础配置一下Echarts
-    function initChart() {
-      let chart = echart.init(document.getElementById("chart-demo"));
+    function initChart(dom: HTMLElement) {
+      let chart = echart.init(dom);
       // 把配置和数据放这里
       chart.setOption({
         xAxis: {
@@ -68,8 +70,8 @@ export default {
       });
     }
 
-    function initChartPie() {
-      let chart = echart.init(document.getElementById("chart-pie-demo"));
+    function initChartPie(dom: HTMLElement) {
+      let chart = echart.init(dom);
       chart.setOption({
         series: [
           {
@@ -87,7 +89,7 @@ export default {
         ],
       });
     }
-    return { initChart };
+    return { initChart, chart1Ref, chart2Ref };
   },
   components: {
     BasicPage,
